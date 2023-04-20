@@ -10,28 +10,27 @@
     justify-content: center;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 h1 {
     margin: 15px;
 }
 
-#resultado {
-    border: white;
-    padding: 10px;
-    width: 100%;
-    background: #f6f4f1;
-    margin-top: 5px;
-}
-
 .calculadora {
-    background-color: rgb(102, 104, 104);
+    background-color: rgba(102, 104, 104, 0.8);
     text-align: center;
     padding: 30px;
     border-radius: 15px;
     color: #202125;
     border-color: white;
+}
+
+#resultado {
+    border: white;
+    width: 100%;
+    background: #f6f4f1;
+    text-align: right;
+    padding: 15px;
 }
 
 button {
