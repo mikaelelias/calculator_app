@@ -12,16 +12,15 @@ function back() {
     document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1)
 }
 
-function calcular() 
+function calcular()
 {
     var resultado = document.getElementById('resultado').innerHTML;
-    if (resultado)
+    if(resultado)
     {
         document.getElementById('resultado').innerHTML = eval(resultado);
     }
-
-    else 
+    else
     {
-        document.getElementById('resultado').innerHTML="";
+        document.getElementById('resultado').innerHTML = ""
     }
 }
