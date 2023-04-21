@@ -24,3 +24,4 @@ function calcular()
         document.getElementById('resultado').innerHTML = ""
     }
 }
+
