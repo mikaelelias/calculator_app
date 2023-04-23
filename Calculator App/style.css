@@ -25,7 +25,7 @@ h1 {
     border-radius: 15px;
     color: #202125;
     border-color: white;
-    height: 54%;
+    height: auto;
 }
 
 #resultado {
@@ -53,8 +53,5 @@ button {
 button:hover {
     background-color: rgb(59, 58, 58);
     }
-
-
-
 
 
